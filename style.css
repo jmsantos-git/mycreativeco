@@ -21,11 +21,12 @@ h2 {
 }
 
 /* 1. First, tell the SECTIONS how to behave */
-.BridgeSection, .FeatureSection , .StorySection{
+.BridgeSection, .FeatureSection, .StorySection{
     padding: 80px 20px;
     display: block;      /* This ensures the section takes up the full width */
     width: 100%;
-    box-sizing: border-box; /* This keeps the padding from making the section too wide */
+    box-sizing: border-box; 
+    clear: both; /* This keeps the padding from making the section too wide */
 }
 
 /* 2. Then, tell the WRAPPERS how to center inside those sections */
