@@ -20,23 +20,23 @@ h2 {
     font-weight: 300;
 }
 
-/* Grouping shared layouts */
+/* 1. First, tell the SECTIONS how to behave */
 .BridgeSection, .FeatureSection {
     padding: 80px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;      /* Centers the wrapper horizontally */
-    justify-content: center;   /* Centers content vertically */
-    text-align: center;        /* Centers the actual text lines */
+    display: block;      /* This ensures the section takes up the full width */
+    width: 100%;
+    box-sizing: border-box; /* This keeps the padding from making the section too wide */
 }
 
+/* 2. Then, tell the WRAPPERS how to center inside those sections */
 .BridgeSection .content-wrapper, 
 .FeatureSection .content-wrapper {
-    width: 100%;
     max-width: 800px;
+    margin: 0 auto;      /* The "Magic" centering line */
+    text-align: center;   /* Centers the text inside the box */
 }
 
-/* Section-Specific Colors */
+/* 3. Section-Specific Colors */
 .BridgeSection { background-color: #a0dbc5; }
 .FeatureSection { background-color: #d5e5f0; }
 
