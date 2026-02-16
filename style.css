@@ -1,0 +1,17 @@
+/* We already styled the body, now let's style a container */
+body {
+    background-color: #f4f7f6; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #2c3e50;
+    font-family: sans-serif;
+    background: white;
+    padding: 40px;      /* Space inside the box */
+    border-radius: 15px; /* Makes the corners rounded */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Adds a soft shadow */
+}
