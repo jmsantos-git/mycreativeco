@@ -3,14 +3,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 .HeroBanner {
     background-color: #00acc1; 
     color: white;              
     padding: 60px 20px;      
     text-align: center;        
 }
-
 
 h1 {
     margin: 0;
@@ -43,6 +41,31 @@ h2 {
 
 .BridgeSection p {
     color: #444;              
+    font-size: 1.1rem;
+    line-height: 1.8;       
+}
+
+.FeatureSection {
+    background-color: #d5e5f0; 
+    padding: 80px 20px;       
+    text-align: center;        
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FeatureSection .content-wrapper {
+    width: 100%;
+    max-width: 800px;
+}
+.FeatureSection h4 {
+    color: #c74c56;           
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.FeatureSection p {
+    color: #672e2e;              
     font-size: 1.1rem;
     line-height: 1.8;       
 }
