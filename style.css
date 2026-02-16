@@ -23,21 +23,20 @@ h2 {
 /* 1. First, tell the SECTIONS how to behave */
 .BridgeSection, .FeatureSection, .StorySection{
     padding: 80px 20px;
-    display: block;      /* This ensures the section takes up the full width */
     width: 100%;
-    box-sizing: border-box; 
-    clear: both; /* This keeps the padding from making the section too wide */
+    box-sizing: border-box;
+    /* This is the Flex Hammer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* 2. Then, tell the WRAPPERS how to center inside those sections */
-.BridgeSection .content-wrapper, 
-.FeatureSection .content-wrapper, 
-.StorySection .content-wrapper {
+.content-wrapper {
+    width: 100%;
     max-width: 800px;
-    margin: 0 auto;      /* The "Magic" centering line */
-    text-align: center;   /* Centers the text inside the box */
+    text-align: center;
 }
-
 /* 3. Section-Specific Colors */
 
 .BridgeSection { background-color: #a0dbc5; }
