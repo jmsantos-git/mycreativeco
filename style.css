@@ -56,10 +56,13 @@ h2 {
 }
 
 .Navbar {
-    background-color: #ffffff; /* Clean white background */
+    background-color: #882b61; /* Clean white background */
     padding: 15px 0;
-    border-bottom: 1px solid #eee; /* Subtle line at the bottom */
+    border-bottom: 1px solid #2c2c7e; /* Subtle line at the bottom */
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other sections */
 }
 
 .nav-wrapper {
