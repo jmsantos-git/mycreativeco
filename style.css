@@ -66,20 +66,20 @@ h2 {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between; /* Pushes logo left, links right */
+    justify-content: space-between; /* Pushes Logo left and Nav right */
     align-items: center;
     padding: 0 20px;
 }
 
 .nav-links {
-    list-style: none; /* Removes the bullet points */
-    display: flex;
+    display: flex;          /* This lines up Home and About in a row */
+    list-style: none;       /* Removes bullet points */
     margin: 0;
     padding: 0;
 }
 
 .nav-links li {
-    margin-left: 25px; /* Spacing between Home and About */
+    margin-left: 30px;      /* Creates the gap between Home and About */
 }
 
 .nav-links a {
