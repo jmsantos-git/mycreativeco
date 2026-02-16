@@ -54,3 +54,40 @@ h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+.Navbar {
+    background-color: #ffffff; /* Clean white background */
+    padding: 15px 0;
+    border-bottom: 1px solid #eee; /* Subtle line at the bottom */
+    width: 100%;
+}
+
+.nav-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Pushes logo left, links right */
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none; /* Removes the bullet points */
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px; /* Spacing between Home and About */
+}
+
+.nav-links a {
+    text-decoration: none; /* Removes the underline */
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #00acc1; /* Turns teal when you point at it */
+}
