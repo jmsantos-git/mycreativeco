@@ -1,17 +1,16 @@
-/* We already styled the body, now let's style a container */
 body {
-    background-color: #f4f7f6; /* Light grey background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: #e0f7fa; /* A light teal color */
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: #2c3e50;
-    font-family: sans-serif;
-    background: white;
-    padding: 40px;      /* Space inside the box */
-    border-radius: 15px; /* Makes the corners rounded */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Adds a soft shadow */
+    color: #006064;
+    margin-top: 50px;
+}
+h2 {
+    color: #00acc1; 
+    font-weight: 300; 
+    font-size: 1.2rem; 
+    margin-bottom: 20px;
 }
