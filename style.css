@@ -1,16 +1,23 @@
 body {
-    background-color: #e0f7fa; /* A light teal color */
-    text-align: center;
+    margin: 0;
     font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: #006064;
-    margin-top: 50px;
+/* This is your flat banner section */
+.HeroBanner {
+    background-color: #00acc1; /* Solid Teal */
+    color: white;              /* White text */
+    padding: 60px 20px;       /* 60px space on top/bottom, 20px on sides */
+    text-align: center;        /* Centers the text inside */
 }
+
+/* Clean up the headlines */
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
 h2 {
-    color: #00acc1; 
-    font-weight: 300; 
-    font-size: 1.2rem; 
-    margin-bottom: 20px;
+    margin: 10px 0 0 0;
+    font-weight: 300;
 }
