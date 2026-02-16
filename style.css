@@ -66,12 +66,14 @@ h2 {
 }
 
 .nav-wrapper {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between; /* Pushes Logo left and Nav right */
+  display: flex;
+    justify-content: space-between; /* The spring that pushes them apart */
     align-items: center;
+    max-width: 1000px; /* The container limit */
+    width: 100%;       /* FORCE the container to be wide */
+    margin: 0 auto;    /* Center the container itself */
     padding: 0 20px;
+    box-sizing: border-box; /* Ensures padding doesn't break the width */
 }
 
 .nav-links {
