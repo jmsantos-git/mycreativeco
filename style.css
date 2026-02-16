@@ -26,8 +26,15 @@ h2 {
     background-color: #ffffff; 
     padding: 80px 20px;       
     text-align: center;        
-}
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BridgeSection .content-wrapper {
+    width: 100%;
+    max-width: 800px;
+}
 .BridgeSection h3 {
     color: #006064;           
     font-size: 2rem;
